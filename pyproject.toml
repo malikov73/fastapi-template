@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "fastapi-template"
+version = "0.1.0"
+description = ""
+authors = ["Asman Malikov <asmanmalikov@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+dependency-injector = "^4.40.0"
+fastapi = "^0.81.0"
+pylint = "^2.15.0"
+bandit = "^1.7.4"
+pre-commit = "^2.20.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
