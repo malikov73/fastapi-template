@@ -1,0 +1,2 @@
+# Simple fastapi template
+
